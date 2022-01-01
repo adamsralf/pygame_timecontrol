@@ -23,6 +23,7 @@ class Settings(object):
     def imagepath(name):
         return os.path.join(Settings.path['image'], name)
 
+
 class Timer(object):
     def __init__(self, duration, with_start = True):
         self.duration = duration
@@ -119,6 +120,6 @@ class Game(object):
 
 
 if __name__ == '__main__':
-
     game = Game()
     game.run()
+    
